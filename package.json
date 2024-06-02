@@ -1,0 +1,21 @@
+{
+  "name": "ste-gpu",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/portscanner": "^2.1.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.583.0",
+    "@aws-sdk/client-s3": "^3.583.0",
+    "aws-sdk": "^2.1628.0",
+    "cloudflare": "^3.2.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "portscanner": "^2.2.0"
+  }
+}

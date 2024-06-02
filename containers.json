@@ -1,0 +1,10 @@
+[
+  {
+    "Description": "Windows 11 Base Install",
+    "Format": "vhd",
+    "UserBucket": {
+      "S3Bucket": "windows-ami-stegpu",
+      "S3Key": "Windows_11.vhd"
+    }
+  }
+]
